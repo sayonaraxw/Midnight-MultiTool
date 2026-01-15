@@ -87,8 +87,8 @@ A powerful command-line multi-tool suite with a midnight aesthetic, combining va
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/sayonaraxw/midnight-multitool.git
-   cd midnight-multitool/"MIDNIGHT MULTI-TOOL"
+   git clone https://github.com/sayonaraxw/Midnight-MultiTool
+   cd Midnight-MultiTool
    ```
 
 2. **Run the setup script:**
@@ -122,7 +122,7 @@ This method isolates project dependencies from your system Python:
 
 ```bash
 # Navigate to project directory
-cd midnight-multitool/"MIDNIGHT MULTI-TOOL"
+cd Midnight-MultiTool/
 
 # Create a virtual environment
 python3 -m venv venv
@@ -251,7 +251,7 @@ After launch, you will see the main menu with four main categories:
 ## 📁 Project Structure
 
 ```
-MIDNIGHT MULTI-TOOL/
+Midnight-MultiTool/
 ├── __init__.py
 ├── main.py                 # Application entry point
 ├── config.py               # Configuration and settings
