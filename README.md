@@ -427,8 +427,8 @@ If you have questions or issues:
 
 ---
 
-**Version:** 6.6.6  
-**Last Updated:** 2025-01-27
+**Version:** 1.0.0  
+**Last Updated:** 2026-01-16
 
 ---
 
