@@ -195,19 +195,9 @@ midnight.bat
 
 After launch, you will see the main menu with four main categories:
 
-```
-╔════════════════════════════════════════════════════════════════╗
-║  ╔══════════════════════════════════════════════════════════╗  ║
-║  ║                    MAIN MENU                             ║  ║
-║  ╠══════════════════════════════════════════════════════════╣  ║
-║  ║  [1]  Cryptography Tools                                 ║  ║
-║  ║  [2]  Network Tools                                      ║  ║
-║  ║  [3]  Data Utilities                                     ║  ║
-║  ║  [4]  System Utilities                                   ║  ║
-║  ║  [0]  Exit MIDNIGHT MULTI-TOOL                           ║  ║
-║  ╚══════════════════════════════════════════════════════════╝  ║
-╚════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+  <img src="https://media.discordapp.net/attachments/1396120664682922097/1461470388318900296/image.png?ex=696aabdd&is=69695a5d&hm=b78615def68ef65c4886226e7c5203a5034118b7b1035b3dc5897bb044a99f27&=&format=webp&quality=lossless&width=1754&height=606" alt="MIDNIGHT MULTI-TOOL" width="300">
+</div>
 
 #### Cryptography Tools Menu:
 - `[1]` Encrypt Text Message
