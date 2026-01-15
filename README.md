@@ -163,13 +163,13 @@ pip3 install pyyaml
 
 ## ▶️ Usage
 
-After successful installation, you can run MIDNIGHT MULTI-TOOL using any of the following methods:
+After successful installation, you can run Midnight-MultiTool using any of the following methods:
 
 ### Running the Application
 
 **Option 1: Direct Python execution (Recommended)**
 ```bash
-cd "MIDNIGHT MULTI-TOOL"
+cd Midnight-MultiTool
 python3 main.py
 # or on Windows:
 python main.py
@@ -177,7 +177,7 @@ python main.py
 
 **Option 2: Using the interactive installer script (Linux/macOS)**
 ```bash
-cd "MIDNIGHT MULTI-TOOL"
+cd Midnight-MultiTool
 chmod +x encrypt-tool.sh
 ./encrypt-tool.sh
 ```
@@ -185,7 +185,7 @@ This script checks dependencies and launches the tool interactively.
 
 **Option 3: Using batch file (Windows)**
 ```cmd
-cd "MIDNIGHT MULTI-TOOL"
+cd Midnight-MultiTool
 midnight.bat
 ```
 
