@@ -9,6 +9,7 @@ import os
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
+from utils.system_info import get_system_info, get_resource_usage
 from utils.exceptions import FileOperationError, ValidationError
 from utils.logger import default_logger
 from utils.validators import validate_file_path
@@ -234,8 +235,6 @@ def export_system_info(output_path: str, format: str = "json") -> bool:
         True if successful, False otherwise.
     """
     try:
-        from utils.system_info import get_system_info, get_resource_usage
-        
         system_info = get_system_info()
         resource_info = get_resource_usage()
         

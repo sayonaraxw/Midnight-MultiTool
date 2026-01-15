@@ -1,3 +1,6 @@
+import sys
+import os
+
 class Colors:
     
     GREEN = '\033[0;32m'
@@ -20,8 +23,6 @@ class Colors:
     
     @classmethod
     def is_supported(cls) -> bool:
-        import sys
-        import os
         
         if not sys.stdout.isatty():
             return False

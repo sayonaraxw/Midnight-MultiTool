@@ -2,6 +2,7 @@ import sys
 import os
 import platform
 import colorama
+import ctypes
 from pystyle import Colors as PystyleColors
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -16,7 +17,6 @@ from ui.display import clear_screen, gradient_print
 def set_console_title(title: str):
     if platform.system().lower() == 'windows':
         try:
-            import ctypes
             ctypes.windll.kernel32.SetConsoleTitleW(title)
         except:
             os.system(f'title {title}')
@@ -28,7 +28,6 @@ def set_console_title(title: str):
 def set_console_font_size(size: int):
     if platform.system().lower() == 'windows':
         try:
-            import ctypes
             
             class COORD(ctypes.Structure):
                 _fields_ = [("X", ctypes.c_short), ("Y", ctypes.c_short)]

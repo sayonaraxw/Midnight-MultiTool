@@ -3,7 +3,7 @@ import getpass
 import sys
 import shutil
 from pystyle import Colorate, Colors as PystyleColors
-from ui.display import clear_screen, display_header, pause_and_continue, align_gradient_text, gradient_print, get_midnight_gradient_text
+from ui.display import clear_screen, display_header, pause_and_continue, align_gradient_text, gradient_print, get_midnight_gradient_text, get_ascii_art_with_frame
 from ui.colors import Colors as OldColors
 from crypto.encryption import EncryptionService
 from crypto.hashing import calculate_hash_text, calculate_hash_file, get_hash_algorithm
@@ -482,7 +482,6 @@ class MainMenu:
             
             if choice.lower() == 'e':
                 clear_screen()
-                from ui.display import get_ascii_art_with_frame
                 print(get_ascii_art_with_frame())
                 gradient_print("\n[*] Terminating MIDNIGHT MULTI-TOOL Session... Stay safe! 🌙")
                 sys.exit(0)
