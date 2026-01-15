@@ -87,8 +87,8 @@ A powerful command-line multi-tool suite with a midnight aesthetic, combining va
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/sayonaraxw/midnight-multitool.git
-   cd midnight-multitool/"MIDNIGHT MULTI-TOOL"
+   git clone https://github.com/sayonaraxw/Midnight-MultiTool
+   cd Midnight-MultiTool
    ```
 
 2. **Run the setup script:**
@@ -122,7 +122,7 @@ This method isolates project dependencies from your system Python:
 
 ```bash
 # Navigate to project directory
-cd midnight-multitool/"MIDNIGHT MULTI-TOOL"
+cd Midnight-MultiTool/
 
 # Create a virtual environment
 python3 -m venv venv
@@ -195,19 +195,9 @@ midnight.bat
 
 After launch, you will see the main menu with four main categories:
 
-```
-╔════════════════════════════════════════════════════════════════╗
-║  ╔══════════════════════════════════════════════════════════╗  ║
-║  ║                    MAIN MENU                             ║  ║
-║  ╠══════════════════════════════════════════════════════════╣  ║
-║  ║  [1]  Cryptography Tools                                 ║  ║
-║  ║  [2]  Network Tools                                      ║  ║
-║  ║  [3]  Data Utilities                                     ║  ║
-║  ║  [4]  System Utilities                                   ║  ║
-║  ║  [0]  Exit MIDNIGHT MULTI-TOOL                           ║  ║
-║  ╚══════════════════════════════════════════════════════════╝  ║
-╚════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+  <img src="https://media.discordapp.net/attachments/1396120664682922097/1461470388318900296/image.png?ex=696aabdd&is=69695a5d&hm=b78615def68ef65c4886226e7c5203a5034118b7b1035b3dc5897bb044a99f27&=&format=webp&quality=lossless&width=1754&height=606" alt="MIDNIGHT MULTI-TOOL">
+</div>
 
 #### Cryptography Tools Menu:
 - `[1]` Encrypt Text Message
@@ -261,7 +251,7 @@ After launch, you will see the main menu with four main categories:
 ## 📁 Project Structure
 
 ```
-MIDNIGHT MULTI-TOOL/
+Midnight-MultiTool/
 ├── __init__.py
 ├── main.py                 # Application entry point
 ├── config.py               # Configuration and settings
@@ -437,8 +427,8 @@ If you have questions or issues:
 
 ---
 
-**Version:** 6.6.6  
-**Last Updated:** 2025-01-27
+**Version:** 1.0.0  
+**Last Updated:** 2026-01-16
 
 ---
 
